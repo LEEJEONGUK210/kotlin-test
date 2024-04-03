@@ -104,5 +104,7 @@ class Answer {
             .flatMap { it.products }
             .filter { it.price >= 100 }
             .map { it.name.uppercase() }
+
+        //merge test
     }
 }
